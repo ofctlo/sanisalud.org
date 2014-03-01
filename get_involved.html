@@ -2,76 +2,103 @@
 <html>
   <head>
     <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QAAAAAAAD5Q7t/AAAAc0lEQVQ4y2NgGGjACGP8y8/+D2MzTZzK+H9VMZzPGNbL+OFqOpwvoD0Tro+JUhdQbAD1wuDC601wPxqI+jEGnMmF8zeYTGZM2PAazl8QIDoswyCiagPcjyvaAhhvzr4L56unKjP+L9+ISBed/sMpDAYeAABsxSQQcseOyAAAAABJRU5ErkJggg==" rel="icon" type="image/x-icon" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <link href="inside_pages.css" rel="stylesheet" type="text/css">
-    <link href="style/default.css" rel="stylesheet" type="text/css">
-    <title>Sanisalud - Get Involved</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="assets/javascript/carousel.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/stylesheets/index.css" rel="stylesheet" type="text/css">
+    <link href="assets/stylesheets/default.css" rel="stylesheet" type="text/css">
+    <title>SaniSalud — Home</title>
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&status=0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <header>
-      <a href="index.html"><img src="header.png"></a>
-      <nav class="top-nav">
-        <a href="about.html"><img src="top_buttons/about.png" /></a>
-        <a href="team.html"><img src="top_buttons/team.png"></a>
-        <a href="get_involved.html"><img src="top_buttons/donate.png" /></a>
-        <a href="http://gacinternational.blogspot.com"><img src="top_buttons/updates-blog.png" /></a>
-      </nav>
+      <div class="nav-wrapper">
+        <a href="index.html"><img src="header.png"></a>
+        <nav class="top-nav">
+          <a href="about.html"><img src="top_buttons/about.png" /></a>
+          <a href="team.html"><img src="top_buttons/team.png"></a>
+          <a href="get_involved.html"><img src="top_buttons/donate.png" /></a>
+          <a href="http://gacinternational.blogspot.com"><img src="top_buttons/updates-blog.png" /></a>
+        </nav>
+      </div>
 
       <img class="slogan" src="top_buttons/slogan.png" />
     </header>
 
-    <div class="content">
-      <h1>Get Involved</h1>
-
-      <p>
-        We need everyone and anyone. If you are a student, teacher, executive, artist, or just someone with great ideas,
-        the 2.6 billion toilet-less can use your help! Let us know how you can contribute your time, talent, or donation.
-      </p>
-
-      <div class="section">
-        <h2>Donate</h2>
-
-        <ul>
-          <li>Your donation of any amount helps support our work in Nicaragua.</li>
-          <li>Donations to support this project will be used to cover the expenses of the materials needed to build the latrines.</li>
-        </ul>
-
-        <p><strong>Everything Helps!</strong></p>
-
-        <!-- Donor Box -->
-        <a class="donate-button" href="https://donorbox.org/sanisalud-give-a-crap-1" style="background-color:#5cb85c;color:#fff;text-decoration:none;font-family:Verdana,sans-serif;display:inline-block;font-size:14px;padding:10px 16px;border-radius:3px;">Donate</a>
-
-        <img class="small-left-image" src="images_in_pages/getInvolved/el-porvenir-pilot.jpg" />
-        <ul>
-          <li>$15 — Sand</li>
-          <li>$30 — Cement</li>
-          <li>$50 — Bricks</li>
-          <li>$160 — Sheltering</li>
-          <li>$300 — Family double pit latrine</li>
-        </ul>
+    <div class="container">
+      <div class="sidebar col-md-4 col-md-push-7">
+        <a href="nicaragua.html">
+          <img class="sidebar-img" src="assets/images/index/sidebar/nicaragua.jpg">
+        </a>
+        <a href="get_involved.html">
+          <img class="sidebar-img" src="assets/images/index/sidebar/get_involved.jpg">
+        </a>
+        <a href="why_sanitation.html">
+          <img class="sidebar-img" src="assets/images/index/sidebar/why_sanitation.jpg">
+        </a>
       </div>
 
-      <div class="section">
-        <h2>Volunteer</h2>
+      <div class="content-wrapper col-md-pull-4 col-md-7">
+        <div class="content">
+          <h1>Get Involved</h1>
 
-        <ul>
-          <li>
-            Plan an event — Tell us your talent and we will help you use your skills to promote the sanitation cause!
-            Email Rachel at <a href="mailto:rachel.sanisalud@gmail.com">rachel.sanisalud@gmail.com</a>.
-          </li>
-          <li>Follow us on your blog, website, or Facebook page.</li>
-        </ul>
-      </div>
+          <p>
+            We need everyone and anyone. If you are a student, teacher, executive, artist, or just someone with great ideas,
+            the 2.6 billion toilet-less can use your help! Let us know how you can contribute your time, talent, or donation.
+          </p>
 
-      <!-- Facebook Like Box -->
-      <div class="facebook-like-box">
-        <div id="fb-root"></div>
-        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-        <fb:like-box href="http://www.facebook.com/pages/Give-a-Crap/117567184992294" width="250" show_faces="false" stream="false" header="false"></fb:like-box>
+          <div class="section">
+            <h2>Donate</h2>
+
+            <ul>
+              <li>Your donation of any amount helps support our work in Nicaragua.</li>
+              <li>Donations to support this project will be used to cover the expenses of the materials needed to build the latrines.</li>
+            </ul>
+
+            <p><strong>Everything Helps!</strong></p>
+
+            <!-- Donor Box -->
+            <a class="donate-button" href="https://donorbox.org/sanisalud-give-a-crap-1" style="background-color:#5cb85c;color:#fff;text-decoration:none;font-family:Verdana,sans-serif;display:inline-block;font-size:14px;padding:10px 16px;border-radius:3px;">Donate</a>
+
+            <img class="small-left-image" src="images_in_pages/getInvolved/el-porvenir-pilot.jpg" />
+            <ul>
+              <li>$15 — Sand</li>
+              <li>$30 — Cement</li>
+              <li>$50 — Bricks</li>
+              <li>$160 — Sheltering</li>
+              <li>$300 — Family double pit latrine</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2>Volunteer</h2>
+
+            <ul>
+              <li>
+                Plan an event — Tell us your talent and we will help you use your skills to promote the sanitation cause!
+                Email Rachel at <a href="mailto:rachel.sanisalud@gmail.com">rachel.sanisalud@gmail.com</a>.
+              </li>
+              <li>Follow us on your blog, website, or Facebook page.</li>
+            </ul>
+          </div>
+          <br />
+          <div class="fb-like" data-href="https://www.facebook.com/giveacrap" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+        </div>
       </div>
-      <!-- the end -->
     </div>
   </body>
 </html>

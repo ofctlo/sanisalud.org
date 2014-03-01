@@ -121,6 +121,17 @@ iframe {
   max-height: 100px;
 }
 
+/* Fixes a facebook like button bug. Remove when fixed. */
+.fb-like {
+  width: 80px;
+}
+
+.fb-like span,
+.fb-like iframe {.
+  width: 80px !important;
+  height: 25px !important;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 992px) {
   /* Display sidebar links horizontally */
   .sidebar a {

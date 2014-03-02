@@ -7,71 +7,16 @@ header {
   margin: 20px 10% 25px;
 }
 
-img {
-  max-width: 100%;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  margin: 0 10px;
+h1 {
+  text-align: center;
 }
 
 p {
   font-size: 14px;
 }
 
-.nav-wrapper {
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-.slogan {
-  display: inline-block;
-  max-width: 90%;
-  margin-left: 10%;
-}
-
-h1 {
-  text-align: center;
-}
-
-.sidebar, .content-wrapper {
-  padding: 5px;
-}
-
-.content {
-  background: white;
-  margin-bottom: 100px;
-  padding: 20px;
-}
-
-.sidebar a {
-  display: block;
-}
-
-.carousel {
-  margin-bottom: 10px;
-}
-
-.item img {
-  width: 100%;
-}
-
-.small-left-image {
-  margin: 10px;
-  float: left;
-  max-width:  150px;
-  max-height: 150px;
-}
-
-.bio-pic {
-  float: left;
-  height: 133px;
-  margin: 15px;
-  width: 133px;
+img {
+  max-width: 100%;
 }
 
 .hidden-header {
@@ -83,27 +28,87 @@ h1 {
   margin: 2em auto 1em auto;
 }
 
-.center-image {
+.top-nav {
+  margin-top: 10px;
+}
+
+.top-nav a {
+  margin: 0 10px;
+}
+
+.nav-wrapper {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  display: inline-block;
+  margin-left: 10%;
+  max-width: 90%;
+}
+
+.sidebar, .content-wrapper {
+  padding: 5px;
+}
+
+.sidebar a {
+  display: block;
+}
+
+.content {
+  background: white;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.image-small {
+  max-height: 150px;
+  max-width:  150px;
+}
+
+.image-center {
   display: block;
   margin: 5px auto;
 }
 
-.right-image {
+.image-right {
   float: right;
 }
 
-.left-image {
+.image-left {
   float: left;
 }
 
-.left-image,
-.right-image {
+.image-left,
+.image-right {
   margin: 5px 10px;
 }
 
-.avatar-large {
-  height: 133px;
-  width: 133px;
+.event {
+  border-bottom: 1px solid gray;
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+.event-main-image {
+  float: right;
+  margin: 5px;
+  width: 40%;
+}
+
+.speaker {
+  margin: 2em 0;
+}
+
+.small-avatar {
+  float:  left;
+  height: 2em;
+  margin-right: 5px;
+  width:  2em;
 }
 
 .profile {
@@ -121,17 +126,6 @@ iframe {
   max-height: 100px;
 }
 
-/* Fixes a facebook like button bug. Remove when fixed. */
-.fb-like {
-  width: 80px;
-}
-
-.fb-like span,
-.fb-like iframe {.
-  width: 80px !important;
-  height: 25px !important;
-}
-
 @media only screen and (min-width: 320px) and (max-width: 992px) {
   /* Display sidebar links horizontally */
   .sidebar a {
@@ -141,7 +135,7 @@ iframe {
 }
 
 @media only screen and (max-width: 320px) {
-  nav a {
+  .top-nav a {
     display: block;
   }
 }

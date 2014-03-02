@@ -22,6 +22,17 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&status=0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <header>
       <div class="nav-wrapper">
         <a href="index.html"><img src="assets/images/header.png"></a>
@@ -171,6 +182,7 @@
               <p>Information, Salsa Dancing, Traditional Food, Nicaraguan Crafts Sale/Auction</p>
             </div>
           </div>
+          <div class="fb-like" data-href="https://www.facebook.com/sanisalud" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
         </div>
       </div>
     </div>

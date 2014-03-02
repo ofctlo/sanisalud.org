@@ -58,6 +58,7 @@ img {
 .content {
   background: white;
   margin-bottom: 100px;
+  overflow: hidden;
   padding: 20px;
 }
 
